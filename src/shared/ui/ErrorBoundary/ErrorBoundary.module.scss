@@ -1,0 +1,39 @@
+.errorBoundary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 24px;
+  text-align: center;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    color: var(--red);
+  }
+
+  p {
+    margin-bottom: 24px;
+    font-size: 1.1rem;
+    color: var(--gray);
+  }
+
+  .retryButton {
+    cursor: pointer;
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: var(--white);
+    background: var(--blue);
+    border: none;
+    border-radius: 6px;
+    transition: background 0.2s;
+
+    &:hover {
+      background: var(--blue);
+    }
+  }
+}

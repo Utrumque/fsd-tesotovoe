@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: var(--light-background);
+
+  .main {
+    overflow: auto;
+    flex: 1;
+
+    @media (width <=1024px) {
+    }
+
+    @media (width <=900px) {
+    }
+
+    @media (width <=480px) {
+    }
+  }
+}

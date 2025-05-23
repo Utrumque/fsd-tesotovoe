@@ -1,0 +1,29 @@
+{
+  "welcome": "Добро пожаловать",
+  "sidebar": {
+    "home": "Главная",
+    "settings": "Настройки",
+    "openMenu": "Открыть меню"
+  },
+  "cocktailCard": {
+    "category": "Категория:",
+    "type": "Тип:",
+    "glass": "Бокал:",
+    "instruction": "Инструкция:",
+    "ingredients": "Ингредиенты:"
+  },
+  "errorBoundary": {
+    "somethingWentWrong": "Что-то пошло не так",
+    "refreshOrTryLater": "Пожалуйста, обновите страницу или попробуйте позже",
+    "refreshPage": "Обновить страницу"
+  },
+  "notFoundPage": {
+    "pageNotFound": "Страница не найдена :("
+  },
+  "cocktailPage": {
+    "loadingError": "Ошибка загрузки данных",
+    "loadingFailed": "Не удалось загрузить информацию о коктейле. Пожалуйста, попробуйте позже.",
+    "cocktailNotFound": "Коктейль не найден",
+    "nothingFound": "По вашему запросу ничего не найдено."
+  }
+}

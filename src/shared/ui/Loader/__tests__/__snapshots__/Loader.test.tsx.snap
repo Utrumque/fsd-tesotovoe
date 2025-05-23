@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Loader должен корректно рендериться 1`] = `
+<div>
+  <div
+    data-testid="loader"
+  >
+    <div
+      data-testid="spinner"
+    />
+  </div>
+</div>
+`;

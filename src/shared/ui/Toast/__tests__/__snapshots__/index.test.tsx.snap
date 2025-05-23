@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ToastContainer рендерит ReactToastContainer 1`] = `
+<div>
+  <section
+    aria-atomic="false"
+    aria-label="Notifications Alt+T"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="Toastify"
+  />
+</div>
+`;

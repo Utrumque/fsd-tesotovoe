@@ -1,0 +1,35 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Env files
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Cache
+.cache/
+.turbo/
+.eslintcache
+.parcel-cache/
+.jest-cache/
+perf-cache-*/
+
+# Temp
+*.tmp
+*.temp

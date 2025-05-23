@@ -1,0 +1,76 @@
+{
+  "name": "fsd_testovoe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint-pre-commit:fix": "eslint --fix \"./**/*.{js,jsx,ts,tsx}\" --config eslint.config.js && stylelint --fix \"**/*.{css,scss}\"",
+    "lint-pre-push:fix": "cross-env eslint --fix \"./**/*.{js,jsx,ts,tsx}\" --max-warnings=0 --config eslint.config.js",
+    "prettier:fix": "cross-env prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" --config ./.prettierrc.json",
+    "lint:scss": "stylelint '**/*.scss'",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --log-level warn --write"
+    ],
+    "*.{css,scss}": [
+      "stylelint --fix"
+    ],
+    "*.{json}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "globals": "^16.2.0",
+    "i18next": "^25.2.0",
+    "i18next-browser-languagedetector": "^8.1.0",
+    "i18next-http-backend": "^3.0.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.5.2",
+    "react-loading-skeleton": "^3.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.0",
+    "react-toastify": "^11.0.5",
+    "sass": "^1.89.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "@vitejs/plugin-react": "^4.5.0",
+    "@vitest/ui": "^3.1.4",
+    "cross-env": "^7.0.3",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-boundaries": "^5.0.1",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard-scss": "^15.0.1",
+    "stylelint-scss": "^6.12.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-checker": "^0.9.3",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.1.4"
+  }
+}

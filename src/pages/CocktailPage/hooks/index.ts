@@ -1,0 +1,1 @@
+export { useGetCocktail } from './useGetCocktail';

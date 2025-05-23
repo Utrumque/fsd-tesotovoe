@@ -1,0 +1,29 @@
+{
+  "welcome": "Welcome",
+  "sidebar": {
+    "home": "Home",
+    "settings": "Settings",
+    "openMenu": "Open menu"
+  },
+  "cocktailCard": {
+    "category": "Category:",
+    "type": "Type:",
+    "glass": "Glass:",
+    "instruction": "Instruction:",
+    "ingredients": "Ingredients:"
+  },
+  "errorBoundary": {
+    "somethingWentWrong": "Something went wrong",
+    "refreshOrTryLater": "Please refresh the page or try again later",
+    "refreshPage": "Refresh page"
+  },
+  "notFoundPage": {
+    "pageNotFound": "Page not found :("
+  },
+  "cocktailPage": {
+    "loadingError": "Data loading error",
+    "loadingFailed": "Failed to load cocktail information. Please try again later.",
+    "cocktailNotFound": "Cocktail not found",
+    "nothingFound": "Nothing found for your request."
+  }
+}
